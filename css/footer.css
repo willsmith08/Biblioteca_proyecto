@@ -1,0 +1,43 @@
+footer{
+    height: 300px;
+    background-color: #8E1616;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    gap: 10px;
+    /* border-right: 2px solid #fff; */
+    color: #fff;
+}
+footer .logo img{
+    height: 200px;
+}
+
+footer hr{
+    height: 90%;
+}
+
+
+
+footer .referencias h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5e5a5a;
+}
+footer .referencias a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}

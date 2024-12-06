@@ -1,0 +1,90 @@
+.libro{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1.5px 1.5px 10px #000;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: 3px solid #8E1616;
+}
+.libro h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #313131;
+    text-align: center;
+}
+.titulo{
+    color: #8E1616;
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.libro img{
+    height: 150px;
+    box-shadow: 1.5px 1.5px 5px #5b5a5a;
+    border-radius: 1.5px;
+}
+.libro .contenido{
+    display: flex;
+    gap: 10px;
+}
+.libro .contenido .contenido2{
+    width: 180px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contenido2{
+    gap: 5px;
+}
+.estado, .autor{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.autor, .desc{
+    width: 100px;
+    font-weight: 700;
+}
+
+.prestar{
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    width: 170px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.1px 5px #808080;
+    background-color: #cbcbcb;
+}
+.contenedor{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+.idLibro{
+    display: none;
+}
+
+.text_descripcion {
+    /* width: 140px;
+    padding: 5px; */
+    height: 110px;
+    /* border: 2px solid #000; */
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #2f2f2f;
+    overflow: auto; /* Oculta el contenido excedente */
+    text-overflow: ellipsis; /* Agrega "..." si el texto es demasiado largo */
+    word-wrap: break-word; /* Ajusta las palabras largas al siguiente renglón */
+    white-space: normal; /* Permite que el texto se ajuste en varias líneas */
+    display: flex;
+    justify-content: center;
+}
+
+.desc{
+    width: 130px;
+    text-align:unset;
+}
+
