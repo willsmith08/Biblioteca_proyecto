@@ -1,7 +1,7 @@
 <?php
 session_start();
-require '../config/conexion.php';
-require '../Models/usuario.php';
+require_once '../config/conexion.php';
+require_once '../Models/usuario.php';
 
 $gestionUsuario = new usuario($conexion);
 

@@ -13,13 +13,13 @@
     
     <div class="contenedor_librosPopulares">
         <div class="fondo"></div>
-        <?php include './Views/librosPopulares.php';?>
+        <?php include_once './Views/librosPopulares.php';?>
 
     </div>
     
 
 
-
+    <?php include_once './Views/buquedaLibros.php';?>
     
 
 

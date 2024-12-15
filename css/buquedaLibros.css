@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedorBusqueda{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contenidoBusqueda{
+    border-radius: 15px;
+    background-color: #dedede;
+    width: 995px;
+    gap: 30px;
+    min-height: 691px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.librobusqueda{
+    background-color: #fff;
+    padding: 10px;
+    width: 290px;
+    height: 240px;
+    border-radius: 5px;
+}
+.contenLibro{
+    display: flex;
+}
+.imgLibro{
+    background-color: #9d9d9d;
+    width: 110px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.1px 5px #808080;
+}
+.imgLibro img{
+    width: inherit;
+    height: inherit;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+.conLibroBus2{
+    margin-left: 15px;
+    /* background-color: #808080; */
+    width: 150px;
+    padding: 5px;
+    height: 130px;
+    text-align: center;
+}
+.conLibroBus2 div .descripcion{
+    color: #393939;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    height: 110px;
+    text-align: left;
+    overflow: auto; /* Oculta el contenido excedente */
+    word-wrap: break-word; /* Ajusta las palabras largas al siguiente renglón */
+    white-space: normal;
+}
+.titulo{
+    color: #8E1616;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.tomar{
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    left: 45px;
+    padding: 8px 40px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #b8b8b8;
+    font-weight: 700;
+    color: #000;
+}
+
+.todasLasPaginas{
+    margin-top: 20px;
+}
+
+.btn-pagina{
+    width: 30px;
+    height: 30px;
+}
